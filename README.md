@@ -6,10 +6,12 @@
 
 
 ## FORMULA:
+``` 
 BMI = W/(H/100**2)
 BMI --> Body Mass Index
 W --> Weight
 H --> Height
+```
 
 ## DESIGN STEPS:
 
@@ -17,7 +19,7 @@ H --> Height
 Clone the repository from GitHub.
 
 ### Step 2:
-Create Django Admin project.
+Create Django Admin project. 
 
 ### Step 3:
 Create a New App under the Django Admin project.
@@ -38,31 +40,30 @@ math.py
 <html>
 <head>
 <title>Body Mass Index</title>
-<h1 style="color:yellow;">I. BUSHRA FATHIMA (25007703)</h1>
 <style type="text/css">
 body
 {
-  background-color:blue;
+  background-color:aqua;
 }
 .edge{
 width:1440px;
 margin-left:auto;
 margin-right:auto;
-padding-top:250px;
+padding-top:260px;
 padding-left:300px;    
 }
 .box{
 display:block;
-border:Thick dashed green;
-width:500px;
-min-height:300px;
-font-size:20px;
+border:Thick dashed rgb(4, 73, 4);
+width:600px;
+min-height:345px;
+font-size:22px;
 background-color:violet;    
 }
 .formelt{
     color:orango;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 8px;
     margin-bottom: 6px;
 }
 h1
@@ -77,6 +78,8 @@ padding-top: 20px;
   <div class="edge">
   <div class="box">
   <h1>Body Mass Index</h1>
+  <h2>I. BUSHRA FATHIMA</h2>
+  <h3>(25007703)</h3>
   <form method="POST">
     {% csrf_token %}
   <div class="formelt">
@@ -137,7 +140,7 @@ urlpatterns = [
 ![alt text](<Screenshot 2025-10-05 225209.png>)
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2025-10-05 225121.png>)
+![alt text](<Screenshot 2025-10-09 174711.png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
